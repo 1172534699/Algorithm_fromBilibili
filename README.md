@@ -11,7 +11,7 @@
 - 坐标系声明：以机器人中心为原点，机器人正方向为z轴，向右为x轴
 
 - 深度相机获取二维码的相对机器人的位姿包括三维位置坐标x,y,z，和三维角度坐标r,p,y
-- 其他参数请参考[逻辑图](https://www.wolai.com/6SWGBHGcL499XUCnz1mqT5)
+- 其他参数请参考[逻辑图](https://github.com/FitGreatCorp/Airface2.0/blob/master/ROS-lib-pkgs/tuning_pose/media/algorithm.png)
 
 >注：1.假设二维码贴于墙面，则垂直于墙面方向为二维码正方向
 
@@ -29,7 +29,7 @@ type|function
 4|运行整个程序，依次运行type=0，1，2，3，5，3
 5|调整x，使得机器人停在req.x位置
 
-- [逻辑图](https://www.wolai.com/6SWGBHGcL499XUCnz1mqT5)（逻辑图参考）
+- [逻辑图](https://github.com/FitGreatCorp/Airface2.0/blob/master/ROS-lib-pkgs/tuning_pose/media/algorithm.png)（逻辑图参考）
 
 **4-调用接口**
 
